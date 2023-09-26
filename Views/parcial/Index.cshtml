@@ -1,0 +1,49 @@
+@model List<parcial.Models.parcial>
+
+@{
+    ViewData["Title"] = "Lista de Usuarios";
+}
+
+<h2>Lista de Usuarios</h2>
+
+<p>
+    <a asp-action="Create">Crear Nuevo Usuario</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                DNI
+            </th>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Apellidos
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>
+                    @usuario.DNI
+                </td>
+                <td>
+                    @usuario.Nombre
+                </td>
+                <td>
+                    @usuario.Apellidos
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-DNI="@usuario.DNI">Detalles</a> |
+                    <a asp-action="Edit" asp-route-DNI="@usuario.DNI">Editar</a> |
+                    <a asp-action="Delete" asp-route-DNI="@usuario.DNI">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

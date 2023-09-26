@@ -1,0 +1,8 @@
+D:\parcial\parcial\obj\Debug\net6.0\parcial.csproj.AssemblyReference.cache
+D:\parcial\parcial\obj\Debug\net6.0\parcial.GeneratedMSBuildEditorConfig.editorconfig
+D:\parcial\parcial\obj\Debug\net6.0\parcial.AssemblyInfoInputs.cache
+D:\parcial\parcial\obj\Debug\net6.0\parcial.AssemblyInfo.cs
+D:\parcial\parcial\obj\Debug\net6.0\parcial.csproj.CoreCompileInputs.cache
+D:\parcial\parcial\obj\Debug\net6.0\parcial.MvcApplicationPartsAssemblyInfo.cache
+D:\parcial\parcial\obj\Debug\net6.0\parcial.RazorAssemblyInfo.cache
+D:\parcial\parcial\obj\Debug\net6.0\parcial.RazorAssemblyInfo.cs

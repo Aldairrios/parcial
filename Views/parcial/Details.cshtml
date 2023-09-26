@@ -1,0 +1,23 @@
+@model parcial.Models.parcial
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h2>Detalles del Usuario</h2>
+
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">DNI:</dt>
+    <dd class="col-sm-10">@Model.DNI</dd>
+
+    <dt class="col-sm-2">Nombre:</dt>
+    <dd class="col-sm-10">@Model.Nombre</dd>
+
+    <dt class="col-sm-2">Apellidos:</dt>
+    <dd class="col-sm-10">@Model.Apellidos</dd>
+</dl>
+
+<div>
+    <a asp-action="Index">Regresar a la lista</a>
+</div>
